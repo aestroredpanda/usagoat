@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://dsc7ngpyiqwak"]
+
+[ext_resource type="Texture2D" uid="uid://bcyh5lsdrfh1i" path="res://assets/chiikawa_usagi_drawing-removebg-preview.png" id="1_5fohh"]
+[ext_resource type="Script" uid="uid://dwmrlq6xrvtea" path="res://scripts/usagi.gd" id="1_r3wy7"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5fohh"]
+
+[node name="usagi" type="CharacterBody2D" unique_id=411598494]
+script = ExtResource("1_r3wy7")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1909197212]
+position = Vector2(213, -209)
+texture = ExtResource("1_5fohh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1532484535]
+position = Vector2(204, -114.000015)
+scale = Vector2(-14.262714, -13.2467)
+shape = SubResource("CircleShape2D_5fohh")
