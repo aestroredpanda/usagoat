@@ -1,7 +1,8 @@
 [gd_scene format=4 uid="uid://cgptour2tgpsd"]
 
-[ext_resource type="PackedScene" uid="uid://dsc7ngpyiqwak" path="res://assets/usagi.tscn" id="1_uwrxv"]
+[ext_resource type="PackedScene" uid="uid://dsc7ngpyiqwak" path="res://scenes/usagi.tscn" id="1_uwrxv"]
 [ext_resource type="Texture2D" uid="uid://dske3ifimi1g2" path="res://assets/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png" id="2_yqjtg"]
+[ext_resource type="PackedScene" uid="uid://c40y7vp6mo7b5" path="res://scenes/eggo.tscn" id="3_lnu2h"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_uwrxv"]
 distance = -6.0
@@ -108,3 +109,7 @@ position = Vector2(217, 14)
 scale = Vector2(9.479999, 7.76)
 tile_map_data = PackedByteArray("AAD8/wAAAAAAAAUAAAD9/wAAAAAAAAUAAAD+/wAAAAAAAAUAAAD//wAAAAAAAAUAAAAAAAAAAAAAAAUAAAABAAAAAAAAAAUAAAACAAAAAAAAAAUAAAADAAAAAAAAAAUAAAA=")
 tile_set = SubResource("TileSet_lbhrr")
+
+[node name="eggo" parent="." unique_id=969502364 instance=ExtResource("3_lnu2h")]
+position = Vector2(511, -85)
+scale = Vector2(11.857023, 14.1979475)
